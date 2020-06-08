@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+::placeholder{
+    color:darkviolet;
+    opacity: 1;
+}
+
+.wrapper{
+    width: 400px;
+    height: 460px;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    padding: 60px 30px;
+    margin-bottom: 130px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+    background-image: url(../asset/sunset.jpeg);
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    font-size: 22px;
+    color:yellow;
+    font-family:'Piedra', cursive;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.wrapper-input,.wrapper input[type=submit]{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wrapper input[type=text],.wrapper input[type=email],.wrapper input[type=password]{
+    padding: 6px;
+    margin: 8px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    /* height: 30px; */
+    font-size: 16px;
+    opacity: 1;
+    color:chocolate;
+}
+
+.wrapper input[type=submit]{
+border: none;
+outline: none;
+height: 40px;
+margin-top: 20px;
+border-radius: 30px;
+background:#ff847c;
+color:crimson;
+font-size: 18px;
+font-weight: bold;
+font-family: 'Shadows Into Light', cursive;
+}
+
+.wrapper input[type=submit]:hover{
+    cursor: pointer;
+}
+
+.wrapper input[type=checkbox]{
+    margin-top: 7px;
+}
+
+.wrapper a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    opacity:0.8;
+}
+
+.wrapper a:hover{
+    color: goldenrod;
+    opacity: 1;
+}
+
+.bottom-text{
+    color: #fff;
+}
+
+.bottom-text input{
+    width: 10%;
+    float: left;
+}
+
+.bottom-text a{
+    float: right;
+    color:white;
+}
+
+.socials{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.socials a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 30%;
+    margin: 0 5px;
+}
+
+.socials a:nth-child(1){
+    background: #3b5998;
+}
+.socials a:nth-child(2){
+    background: #55acee;
+}
+.socials a:nth-child(3){
+    background: #bd081c;
+}
+.socials a:nth-child(4){
+    background: #0077bc;
+}
+
+.socials a i{
+    padding: 8px 0;
+}

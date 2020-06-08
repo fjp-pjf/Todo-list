@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Piedra&display=swap');
+.navbar-brand{
+  font-family:'Piedra', cursive ;
+  color: aqua !important;
+}
+
+h1{
+  text-align: center;
+  padding: 5px;
+  font-family:'Piedra', cursive;
+  color:#fcf7bb;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+    text-align: start;
+    color: #fff;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+
+/* .main{
+    border: 40px solid ;
+} */
+
+.disabled{
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+hr{
+    background-color:orangered;
+}
+
+.wrapper{
+position: absolute;
+width: 100%;
+border: 30px solid tomato;
+/* background: linear-gradient(90deg,rgba(2,0,.6,1)0%,rgba(9,9,121,1)35%,rgba(0,212,255,1)100%); */
+  background: url(../asset/rainbow.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+  
+  #list li {
+    /* visibility: hidden; */
+    animation: rolldown 1s 1;
+    transform-origin: 50% 0;
+    animation-fill-mode: forwards;
+  }
+  
+  #list li:nth-child(2n+1) {
+    background-color:#000;
+  }
+  
+  .unorder {
+    position: relative;
+    left: -2%;
+  }
+  
+  @keyframes rolldown {
+    0% {
+      visibility: visible;
+      transform: rotateX(180deg) perspective(500px);
+    }
+    70% {
+      visibility: visible;
+      transform: rotateX(-20deg);
+    }
+    100% {
+      visibility: visible;
+      transform: rotateX(0deg);
+    }
+  }
