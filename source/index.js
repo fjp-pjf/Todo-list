@@ -23,8 +23,12 @@ let checkCount = 0;
 $('#list').on('click','.checkbox',function(e){
     if($(this).prop('checked')===true){
         checkCount++;
-        $(this).parent().addClass('disabled');
+        $(this).parent().addClass('partialDisable');
         promiseCall();
+    }
+    else{
+        checkCount--;
+        $(this).parent().removeClass('partialDisable');
     }
 })
 

@@ -20,13 +20,13 @@ li{
     font-size: 20px;
 }
 
-/* .main{
-    border: 40px solid ;
-} */
-
 .disabled{
-    pointer-events: none;
+    pointer-events: none; 
     opacity: 0.6;
+}
+
+.partialDisable{
+  opacity:0.6;
 }
 
 hr{
